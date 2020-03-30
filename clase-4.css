@@ -1,0 +1,29 @@
+/* Selectores*/
+
+/*Elemeto / Tipo*/
+body {
+    background-color: tomato;
+}
+
+p {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+/*Universal*/
+* {
+    color: white;
+}
+
+/* Clase */
+.mi-primera-clase {
+    color: gray;
+    background-color: white;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+/* ID */
+
+#titulo {
+    text-transform: uppercase;
+}
