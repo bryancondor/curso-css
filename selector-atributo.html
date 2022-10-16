@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector de atributo</title>
+
+    <style>
+        input[disabled] {
+            background-color: orange;
+        }
+
+        input[disabled="false"] {
+            background-color: skyblue;
+        }
+
+        h1[abc]{
+            color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 abc>Titulo</h1>
+    <h1 abc>Titulo 2</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis ducimus delectus eaque debitis in quisquam
+        dignissimos accusamus voluptates doloremque vero tempora sequi quis harum, nulla iusto natus reprehenderit est
+        fugit.</p>
+
+    <input type="text">
+    <input type="text" disabled>
+    <input type="text" disabled>
+    <input type="text" disabled>
+    <input type="text" disabled>
+    <input type="text" disabled="false">
+    <button>Mi boton</button>
+</body>
+
+</html>
