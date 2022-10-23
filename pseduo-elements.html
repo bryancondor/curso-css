@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elementos</title>
+</head>
+
+<style>
+    .title::before {
+        content: "📌";
+        margin-right: 8px;
+    }
+
+    .title::after {
+        content: "🆕";
+        margin-left: 8px;
+    }
+
+    .subtitle::first-letter {
+        font-size: 48px;
+        color: tomato;
+    }
+</style>
+
+<body>
+
+    <section>
+        <h1 class="title">Bryan Alexander</h1>
+        <h2 class="subtitle">Subtitle</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab veniam fugit corrupti voluptatum ea in quibusdam,
+            nemo atque quia distinctio porro. Distinctio minima, optio vitae labore veritatis corrupti voluptate at
+            fugiat cumque laudantium error repellat eligendi! Eligendi laboriosam accusamus recusandae saepe? Magnam,
+            ratione. Explicabo vitae non saepe mollitia! Nihil, assumenda!</p>
+    </section>
+
+</body>
+
+</html>
